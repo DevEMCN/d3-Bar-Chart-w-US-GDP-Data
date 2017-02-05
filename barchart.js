@@ -65,7 +65,7 @@ d3.json(url, function (error, data) {
                 'top': d3.event.pageY - 70  + 'px',
                 'display': 'inline-block'
               })
-              .html(d[0] + '<br/>' + d[1]);
+              .html('Date:' + d[0] + '<br/>$' + d[1]);
             })
             .on('mouseout', function(d){ tooltip.style('display', 'none')});
 
