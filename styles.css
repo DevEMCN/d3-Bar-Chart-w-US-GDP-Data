@@ -1,0 +1,37 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.barchart {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+}
+
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+svg {
+  background-color: #f2ede6
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
